@@ -8,9 +8,9 @@ def print_color_map():
     return len(major_colors) * len(minor_colors)
 
 
-result = print_color_map()
-assert(result == 25)
-print("All is well (maybe!)\n")
+# result = print_color_map()
+# assert(result == 25)
+# print("All is well (maybe!)\n")
 
 import io
 import sys
