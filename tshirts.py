@@ -27,7 +27,7 @@ def test_size():
     assert size(43) == 'L', "Expected 'L' for cms = 43"
     assert size(50) == 'L', "Expected 'L' for cms = 50"
 
-    print("All tests passed!")
+    # print("All tests passed!")
 
 # Run the enhanced test cases
 test_size()
