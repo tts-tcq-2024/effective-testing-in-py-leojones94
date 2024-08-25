@@ -21,12 +21,12 @@ def test_size():
     # Tests for 'M' category
     assert size(38.1) == 'M', "Expected 'M' for cms = 38.1"
     assert size(41.9) == 'M', "Expected 'M' for cms = 41.9"
+    assert size(38) == 'M', "Expected 'M' for cms = 38"
 
     # Tests for 'L' category
     assert size(42) == 'L', "Expected 'L' for cms = 42"
     assert size(43) == 'L', "Expected 'L' for cms = 43"
     assert size(50) == 'L', "Expected 'L' for cms = 50"
-    assert size(38) == 'L', "Expected 'L' for cms = 38"
     
     # print("All tests passed!")
 
